@@ -4,7 +4,6 @@
     --true-blue:#4968B0;
     --true-blue-bis:#89BFE4;
     --olivine: #B4D093;
-    --true-blue:#B4D093;
     --jasmine:#F6D487;
     --coral:#FD7144;
     --morally-grey:#E7E7E7;
@@ -17,8 +16,6 @@ body{
 
 header{
     background-color: var(--primary-color);
-    display: flex;
-    flex-direction: row;
 }
 
 div{
@@ -26,8 +23,28 @@ div{
     flex-direction: row;
 }
 
+
 .part{
     background-color: var(--true-blue-bis);
+}
+
+.fullBlue{
+    background-color: var(--true-blue);
+}
+
+.part1{
+    display: flex;
+    flex-direction: row;
+}
+.anim2{
+    max-height: 80%;
+    max-width:80%;
+}
+
+.ok{
+    width:590px;
+    display: flex;
+    flex-direction: column;
 }
 
 /* gestion des typos */
