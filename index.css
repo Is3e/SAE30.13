@@ -12,8 +12,19 @@
 
 body{
     background-color: var(--primary-color);
+    font-family: 'poppins';
 }
 
+header{
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: row;
+}
+
+div{
+    display: flex;
+    flex-direction: row;
+}
 
 .part{
     background-color: var(--true-blue-bis);
