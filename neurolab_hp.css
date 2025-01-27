@@ -1,0 +1,75 @@
+
+/* ------------------- gestion de style généraux -------------------  */
+:root {
+    --primary-color: #FBFBF5;
+    --prussian-blue:#012035;
+    --true-blue:#417DC2;
+    --true-blue-bis:#89BFE4;
+    --olivine: #B4D093;
+    --jasmine:#F6D487;
+    --coral:#FD7144;
+    --morally-grey:#E7E7E7;
+}
+
+*{
+    font-family: "poppins"; 
+}
+
+p{
+    color:var(--morally-grey);
+}
+
+/* ------------------- hero banner ------------------- */
+.anim2{
+    width:400px;
+}
+
+.hero{
+    width: 100%;
+    height: auto;
+    background-image: url('images/datas.jpg');
+    background-size: cover;
+}
+
+/* ------------------- titraille ------------------- */
+.header-titles{
+    color:var(--coral);
+    font-size:30px;
+}
+
+
+h3{
+    color:var(--olivine);
+    font-size: 3.5vh;
+    margin-bottom: 2px;
+}
+
+/* -------- gestion des articles */
+
+.fullBlue{
+    padding-top: 25px;
+    padding-bottom: 55px;
+}
+
+/* ------------------- gestion des bouttons ------------------- */
+.btn-prm{
+    width:210px;
+    height:35px;
+    color:#012035;
+    border-radius: 15px;
+    background-color: var(--olivine);
+}
+
+.btn_scd{
+    width:210px;
+    height:35px;
+    color:#B4D093;
+    border-radius: 55px;
+    background-color: #96b2c600;
+}
+
+.btn_scd:hover {  
+    background-color: var(--olivine);
+    color: var(--morally-grey);}
+
+

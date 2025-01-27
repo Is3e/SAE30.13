@@ -1,0 +1,40 @@
+footer{
+    color: #fbfbf5;
+    background-color: #012035;
+    font-size:1.6vh;
+    padding-left: 1%;
+}
+
+.savoirPlus{
+    padding-top: 1%;
+    font-weight: 800;
+    font-size: 1.8vh;
+}
+
+.gras{
+    font-weight: 600;
+}
+
+.boiteImgFooter{
+    text-align: end;
+}
+
+.logoFooter{
+    padding-bottom: 10px;
+    padding-left: 10% ;
+    border-bottom: solid #fbfbf5;
+    border-width: 0.3em;
+    padding-right: 5%;
+    width: 35%;
+    min-width: 200px;
+}
+
+#menuFooter{
+    list-style: none;
+    margin: 0%;
+}
+
+.aFooter{
+    text-decoration: none;
+    color: #fbfbf5;
+}

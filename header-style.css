@@ -1,0 +1,33 @@
+
+:root {
+    --primary-color: #FBFBF5;
+    --prussian-blue:#012035;
+    --true-blue:#417DC2;
+    --true-blue-bis:#89BFE4;
+    --olivine: #B4D093;
+    --jasmine:#F6D487;
+    --coral:#FD7144;
+    --morally-grey:#E7E7E7;
+}
+
+header img{
+    width:4%;
+    margin-right: 14px;
+}
+.header-dw{
+    width:95%;
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    color:var(--coral);
+}
+
+h1{
+    color:var(--olivine);
+    font-weight:normal;
+    font-size: 3.5vh;
+    margin-bottom: 2px;
+}
