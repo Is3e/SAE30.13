@@ -7,39 +7,41 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="neurolab_hp.css">
     <link rel="stylesheet" href="header-style.css">
-    <link rel="stylesheet" href="resultats.css">
+    <link rel="stylesheet" href="footer.css">
 
 
     <title>Neurolab</title>
 </head>
 <body>
 
-    <header>
-        <div class="header container d-flex align-items-center">
+    <header id="heeader"style="background-color:#FBFBF5;">
+        <div class="header container d-flex align-items-center pt-2 pb-2">
             <img src="images/logoNL.png" alt="logo neurolab">
             <div class="header-dw d-flex justify-content-between">
-                <h1 class="header-titles p-2"><a href="">Neurolab</a></h1>
-                <h1 class="header-titles p-2"><a href="">Données</a></h1>
+                <h1 class="header-titles p-2"><a id="aHeader" href="neurolab_index.html">Neurolab</a></h1>
+                <h1 class="header-titles p-2"><a id="aHeader" href="resultats.html">Données</a></h1>
             </div>
         </div>
         
     </header>
-    
-    <div class="hero">
-        <!-- <img src="images/datas.jpg"  alt=""> -->
+
+    <p id="jump-to-top"><a href="#heeader">↑</a></p>
+    <div class="hero w-40px">
+        <p class="hero-tt">Bienvenue sur <br>Neurolab</p>
     </div>
 
-    <main style="background-color:#FBFBF5;">
+    <main style="background-color:#FBFBF5;" class=" pt-3">
         <section class="container">
-            <div class="row d-flex flex-lg-row align-items-center m-0">
+            <div class="row d-flex align-items-center pt-3 pb-3">
+
                 <div class="col-12 col-lg-6 " >
-                    <p style="color:#012035; font-size: 4vh; font-weight: bold;">Le <span style="color: #496BB0">neurolab</span> à pour but de mettre en page des données et en <span style="color: #496BB0">faciliter</span> leur lecture. </p>
-                    <p style="color:#012035;">Accèdez facilement aux données provenant de la recherche sur le dépistage du spectre autistique chez une population agée de 2 à 13 ans.
+                    <p style="color:#012035; font-size: 3vh; font-weight: bold;">Le <span style="color: #496BB0">neurolab</span> à pour but de mettre en page des données et en <span style="color: #496BB0">faciliter</span> leur lecture. </p>
+                    <p style="color:#012035; font-size: 2vh;">Accèdez facilement aux données provenant de la recherche sur le dépistage du spectre autistique chez une population agée de 2 à 13 ans.
                     </p>
                 </div>
 
-                <div class="col-12 col-lg-6"  style="width:80%">
-                    <img class="anim2" src="images/infini.gif" alt="sigle infini">
+                <div class="col-12 col-lg-6 text-center">
+                    <img class="anim2 img-fluid" src="images/infini.gif" alt="sigle infini">
                 </div>
             </div>
         </section>
@@ -59,19 +61,22 @@
                     <article>
                         <h3>Notre objectif</h3>
                         <p>Avec ses recherches, l’équipe de Neurolab espère participer à la détection de signe d’autisme chez les enfants dès le plus jeune âge afin de leurs procuper l’accompagnement nécéssaire pour s’épanouir.</p>
-                        <button class="btn-prm">Acceder aux analyses</button>
+                        <button class="btn-prm"><a href="resultats.html">Acceder aux analyses</a></button>
                     </article>
                 </div>
 
                 <div class="container">
                     <article class="row mt-5">
-                        <article classe="" >
+                        <article>
                             <h3>Quelques clés pour comprendre l’autisme</h3>
                             <p>L’autisme est un trouble du neurodéveloppement qui affecte la communication, les interactions sociales et les comportements. Il se manifeste dès la petite enfance et varie d’une personne à l’autre. 
                                 Il n’existe pas de traitement curatif, mais des interventions éducatives et comportementales 
                                 peuvent aider à améliorer la qualité de vie des personnes autistes.
                             </p>
-                            <button class="btn_scd">en apprendre plus</button>
+                            <div class="pb-5">
+                                <button class="btn_scd"><a href="https://www.pasteur.fr/fr/centre-medical/fiches-maladies/autisme">en apprendre plus</a></button>
+                            </div>
+                            
                         </article>
     
                         <article>
@@ -80,7 +85,7 @@
                                 Cette méthode utilise des caméras pour suivre les déplacements de la pupille et identifier où le regard se fixe, permettant ainsi de comprendre les zones d’attention et de navigation sur un écran. 
                                 Utilisée en ergonomie et en marketing, elle aide à améliorer l’expérience utilisateur et l’efficacité des interfaces.
                             </p>
-                            <button class="btn_scd">en apprendre plus</button>
+                            <button class="btn_scd"><a href="https://www.usabilis.com/eye-tracking/">en apprendre plus</a></button>
                         </article>
     
                     </article>

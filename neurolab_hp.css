@@ -25,10 +25,12 @@ p{
 }
 
 .hero{
-    width: 100%;
-    height: auto;
-    background-image: url('images/datas.jpg');
+    width:99vw;
+    height: 50vw;
+    background-image: url('images/datas-res.JPG');
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 /* ------------------- titraille ------------------- */
@@ -37,6 +39,13 @@ p{
     font-size:30px;
 }
 
+.hero p{
+    color:var(--true-blue);
+    position: relative;
+    top:25%;
+    font-size: 5vh;
+    margin-left: 50px;
+}
 
 h3{
     color:var(--olivine);
@@ -55,21 +64,63 @@ h3{
 .btn-prm{
     width:210px;
     height:35px;
-    color:#012035;
     border-radius: 15px;
+    border-color: var(--primary-color);
     background-color: var(--olivine);
+}
+
+.btn-prm a:hover{
+    color: var(--primary-color);
+}
+
+.btn-prm:hover {  
+    transition: 0.5s;
+    background-color:#8cdb8a8c;
+    border-color:var(--primary-color);
+    color: var(--morally-grey);
 }
 
 .btn_scd{
     width:210px;
     height:35px;
-    color:#B4D093;
     border-radius: 55px;
     background-color: #96b2c600;
+    border-color: var(--primary-color);
+}
+
+.btn_scd a:hover{
+    color: var(--primary-color);
 }
 
 .btn_scd:hover {  
+    transition: 0.5s;
     background-color: var(--olivine);
-    color: var(--morally-grey);}
+    border-color: var(--jasmine);
+    color: var(--morally-grey);
+}
 
+button a{
+    color: var(--primary-color);
+}
+
+#jump-to-top {
+    position: absolute;
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: block;
+
+    border: none;
+    border-radius: 30%;
+    font-size: 30px;
+    color: var(--primary-color);
+    background-color: var(--jasmine);
+    box-shadow: 0 4px 6px rgba(12, 23, 58, 0.2);
+}
+
+#jump-to-top:hover {
+    background-color:#c4aa6d;
+}
 
